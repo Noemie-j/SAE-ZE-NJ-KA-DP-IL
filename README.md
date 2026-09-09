@@ -3,5 +3,5 @@ Participants :
 Zakariya EL HADJI
 Ilyies LERHZAL
 Noémie JALIER
-Denys 
-Kenzy 
+Denys Piddubnyi
+Kenzy Abada
