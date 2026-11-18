@@ -1,0 +1,99 @@
+:root{
+    --fond: #F3F6F8;
+
+    --texte: #1F3442;
+    --bordure: #CBD5DC;
+
+    --bouton: #FAFBFC;
+
+
+    --surface: #1C6A94;
+    --surface-texte: #FAFBFC;
+
+    --logo : #B3134F;
+    --logo-texte : #CC5682;
+
+    --serif: "Lora";
+    --sans: "Inter";
+}
+
+body{
+    margin: 0;
+    background: var(--fond);
+    color: var(--texte);
+    font-family: var(--sans);
+}
+
+.container{
+    max-width: 1120px;
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+
+.header-inner, .nav, .actions-nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.header{
+    border-bottom: 1px solid var(--bordure);
+}
+
+.header-inner{
+    justify-content: space-between;
+    padding-block: 1.25rem;
+}
+
+.logo{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-p1{
+    font-family: var(--serif);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--logo);
+}
+
+.logo-nom{
+    font-size: 0.75rem;
+    line-height: 1.3;
+    color: var(--logo-texte);
+}
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+}
+
+.nav a{
+    color: var(--texte);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.bouton{
+    padding: 0.6rem 1.1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.bouton-primaire{
+    background-color: var(--bouton);
+    color: var(--texte);
+    border: 1px solid var(--bordure);
+}
+.bouton-secondaire { 
+    background: var(--surface); 
+    color: var(--surface-texte); 
+}
