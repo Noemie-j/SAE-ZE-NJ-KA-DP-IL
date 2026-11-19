@@ -30,6 +30,11 @@ body{
     padding-inline: 2rem;
 }
 
+h1, h2, h3{
+    font-family: var(--serif);
+    
+    margin: 0;
+} 
 
 .header-inner, .nav, .actions-nav{
     display: flex;
