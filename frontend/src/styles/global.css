@@ -1,15 +1,24 @@
 :root{
+    /* Fonds */
     --fond: #F3F6F8;
 
+    --fond-carte: #FAFBFC;
+    --fond-mise-en-avant: #E3EDF3; 
+
+    /* Textes */
     --texte: #1F3442;
+    --texte-doux: #536471;
+
+    /* Bordures */
+    
     --bordure: #CBD5DC;
 
 
 
-    --bouton: #FAFBFC;
+    --couleur-action: #1C6A94;
 
-    --surface: #1C6A94;
-    --surface-texte: #FAFBFC;
+    
+    --fond-carte-texte: #FAFBFC;
 
     --logo : #B3134F;
     --logo-texte : #CC5682;
