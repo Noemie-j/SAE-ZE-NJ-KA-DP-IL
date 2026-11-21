@@ -1,10 +1,10 @@
 import styles from "./Hero.module.css"
 export function Hero(){
     return (
-        <section className={styles.hero+" container"}>
+        <section className={styles.hero}>
             <div>
                 <p className="surtitre">EM/SFC ET COVID LONG</p>
-                <h1 className={styles.titre}>Vous n'avez pas à faire ce chemin seul.</h1>
+                <h1>Vous n'avez pas à faire ce chemin seul.</h1>
             </div>
 
             <div>
