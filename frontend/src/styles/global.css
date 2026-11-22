@@ -71,6 +71,9 @@ h1, h2, h3{
     padding: 0;
 }
 
+.grille > li {
+    display: grid;
+}
 .grille-3{
     grid-template-columns: repeat(3, 1fr);
 }

@@ -5,10 +5,16 @@
     align-items: center;
     justify-content: space-between;
     margin-top: auto;
+    gap: 0.625rem;
     min-height: 2.75rem;
     font-weight: 600;
     text-decoration: underline;
     text-underline-offset: 0.2em;
 
     color: var(--couleur-action);
+}
+
+.collee{
+    justify-content: flex-start;
+    margin-top: 0;
 }
