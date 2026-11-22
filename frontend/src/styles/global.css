@@ -8,28 +8,27 @@
     /* Textes */
     --texte: #1F3442;
     --texte-doux: #536471;
+    --texte-sur-action: #FAFBFC;
 
     /* Bordures */
     
     --bordure: #CBD5DC;
 
-
-
+    /* Click */
     --couleur-action: #1C6A94;
 
     
-    --fond-carte-texte: #FAFBFC;
+    /* Logo */
 
     --logo : #B3134F;
     --logo-texte : #CC5682;
 
     /* Padding pour l'espace entre chaque section */
-
     --section-normale: 3rem;
     --section-large: 3.5rem;
 
 
-    /* Couleur principal et sécondaire*/
+    /* Polices*/
     --serif: "Lora";
     --sans: "Inter";
 }
@@ -39,12 +38,28 @@ body{
     background: var(--fond);
     color: var(--texte);
     font-family: var(--sans);
+    font-size: 1rem;
+}
+
+p, ul {
+    margin: 0;
+}
+
+h1, h2, h3{
+    margin: 0;
+    color: var(--texte);
 }
 
 .container{
     max-width: 1120px;
     margin-inline: auto;
     padding-inline: 2rem;
+}
+
+.section{
+    display: grid;
+    gap: 2rem;
+    padding-block: var(--section-normale);
 }
 
 
@@ -74,14 +89,14 @@ body{
 }
 
 .bouton-secondaire{
-    background-color: var(--bouton);
+    background-color: var(--fond-carte);
     color: var(--texte);
     border: 1px solid var(--bordure);
 }
 
 .bouton-primaire { 
-    background: var(--surface); 
-    color: var(--surface-texte); 
+    background: var(--couleur-action); 
+    color: var(--texte-sur-action); 
 }
 
 

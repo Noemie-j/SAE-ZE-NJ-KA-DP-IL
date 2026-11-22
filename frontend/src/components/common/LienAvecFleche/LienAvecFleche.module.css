@@ -1,0 +1,14 @@
+
+
+.lienFleche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    min-height: 2.75rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+
+    color: var(--couleur-action);
+}

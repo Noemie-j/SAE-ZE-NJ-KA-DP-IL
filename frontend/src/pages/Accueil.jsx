@@ -1,10 +1,10 @@
-import { ChoixProfil } from "../components/accueil/choixProfil/ChoixProfil";
-import { Hero } from "../components/accueil/hero/Hero";
+import { ChoixProfil } from "../components/Accueil/ChoixProfil/ChoixProfil";
+import { Hero } from "../components/Accueil/Hero/Hero";
 
 
 export function Accueil(){
     return (
-        <div className="container">
+        <div className="container section">
             <Hero/>  
             <ChoixProfil/>
         </div>

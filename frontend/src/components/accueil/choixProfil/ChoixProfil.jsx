@@ -1,6 +1,6 @@
 import {UserRound,HeartHandshake, Stethoscope} from "lucide-react";
-import { Carte } from "../../common/Carte";
-import { LienAvecFleche } from "../../common/LienAvecFleche";
+import { Carte } from "../../common/Carte/Carte";
+import { LienAvecFleche } from "../../common/LienAvecFleche/LienAvecFleche";
 
 
 const profils = [
@@ -19,7 +19,7 @@ export function ChoixProfil(){
                         const Icone = profil.icone;
                         return (
                             <li key={profil.to}>
-                                <Carte className="carte-blanc">
+                                <Carte>
                                     <Icone size={22} className="icone" />
                                     <h3>{profil.titre}</h3>
                                     <p className="texte-doux">{profil.texte}</p>
