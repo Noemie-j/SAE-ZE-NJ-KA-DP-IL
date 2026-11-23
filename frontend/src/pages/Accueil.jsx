@@ -1,3 +1,4 @@
+import Actualites from "../components/Accueil/Actualites/Actualites";
 import AidePersonel from "../components/Accueil/AidePersonel/AidePersonel";
 import { ChoixProfil } from "../components/Accueil/ChoixProfil/ChoixProfil";
 import { Hero } from "../components/Accueil/Hero/Hero";
@@ -14,6 +15,7 @@ export function Accueil(){
 
             <AidePersonel />
             <Pacing/>
+            <Actualites/>
         </>
         
 

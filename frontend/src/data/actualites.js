@@ -1,6 +1,9 @@
+import { BookOpenText, GraduationCap, RotateCcw } from "lucide-react";
+
 export const actualites = [
     {
         id: 1,
+        icone: BookOpenText,
         categorie: "DÉFENDRE VOS DROITS",
         date: "2026-11-02",
         titre: "EM/SFC et Covid long : une réponse ministérielle",
@@ -11,6 +14,7 @@ export const actualites = [
 
     {
         id: 2,
+        icone: GraduationCap,
         categorie: "SE FORMER",
         date: "2026-09-01",
         titre: "Les fatigues : se former à Strasbourg",
@@ -21,6 +25,7 @@ export const actualites = [
 
     {
         id: 3,
+        icone: RotateCcw,
         categorie: "RENCONTRES ET REPLAYS",
         date: "2026-11-21",
         titre: "Journée et Biennale des Fatigues",
