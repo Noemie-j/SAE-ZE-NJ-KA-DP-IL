@@ -1,0 +1,16 @@
+.bloc{
+    display: grid;
+    grid-template-columns: 740fr 364fr;
+    gap: 2rem;
+    padding: 2.5rem;
+
+    background: var(--fond-mise-en-avant);
+    border-radius: 1rem;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+}

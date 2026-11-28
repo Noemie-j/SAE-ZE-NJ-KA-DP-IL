@@ -1,15 +1,13 @@
 
 
 .hero{
-    margin-top: 3.5rem;
+    
     display: grid;
     grid-template-columns: 1.3fr 1fr;
     gap: 2rem;
     align-items: end;
 }
 
-.titre{
-    font-size: clamp(2rem, 4vw, 3rem);
-    font-weight: 500;
-    line-height: 1.15;
+.normale{
+    background-color: var(--);
 }

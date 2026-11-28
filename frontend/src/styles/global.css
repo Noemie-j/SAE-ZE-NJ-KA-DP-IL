@@ -1,18 +1,34 @@
 :root{
+    /* Fonds */
     --fond: #F3F6F8;
 
+    --fond-carte: #FAFBFC;
+    --fond-mise-en-avant: #E3EDF3; 
+
+    /* Textes */
     --texte: #1F3442;
+    --texte-doux: #536471;
+    --texte-sur-action: #FAFBFC;
+
+    /* Bordures */
+    
     --bordure: #CBD5DC;
 
-    --bouton: #FAFBFC;
+    /* Click */
+    --couleur-action: #1C6A94;
 
-
-    --surface: #1C6A94;
-    --surface-texte: #FAFBFC;
+    
+    /* Logo */
 
     --logo : #B3134F;
     --logo-texte : #CC5682;
 
+    /* Padding pour l'espace entre chaque section */
+    --section-normale: 3rem;
+    --section-large: 3.5rem;
+
+
+    /* Polices*/
     --serif: "Lora";
     --sans: "Inter";
 }
@@ -22,6 +38,16 @@ body{
     background: var(--fond);
     color: var(--texte);
     font-family: var(--sans);
+    font-size: 1rem;
+}
+
+p, ul {
+    margin: 0;
+}
+
+h1, h2, h3{
+    margin: 0;
+    color: var(--texte);
 }
 
 .container{
@@ -30,58 +56,30 @@ body{
     padding-inline: 2rem;
 }
 
-h1, h2, h3{
-    font-family: var(--serif);
-    
-    margin: 0;
-} 
-
-.header-inner, .nav, .actions-nav{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.section{
+    display: grid;
+    gap: 2rem;
+    padding-block: var(--section-normale);
 }
 
 
-.header{
-    border-bottom: 1px solid var(--bordure);
-}
-
-.header-inner{
-    justify-content: space-between;
-    padding-block: 1.25rem;
-}
-
-.logo{
-    display: flex;
-    gap: 0.75rem;
-    align-items: center;
-    text-decoration: none;
-}
-
-.logo-p1{
-    font-family: var(--serif);
-    font-size: 2.25rem;
-    font-weight: 700;
-    color: var(--logo);
-}
-
-.logo-nom{
-    font-size: 0.75rem;
-    line-height: 1.3;
-    color: var(--logo-texte);
-}
-.nav{
+.grille{
+    display: grid;
+    gap: 1.25rem;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 1.5rem;
 }
 
-.nav a{
-    color: var(--texte);
-    text-decoration: none;
-    font-weight: 500;
+.grille > li {
+    display: grid;
+}
+.grille-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grille-2{
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
@@ -93,12 +91,16 @@ h1, h2, h3{
     border: 1px solid transparent;
 }
 
-.bouton-primaire{
-    background-color: var(--bouton);
+.bouton-secondaire{
+    background-color: var(--fond-carte);
     color: var(--texte);
     border: 1px solid var(--bordure);
 }
-.bouton-secondaire { 
-    background: var(--surface); 
-    color: var(--surface-texte); 
+
+.bouton-primaire { 
+    background: var(--couleur-action); 
+    color: var(--texte-sur-action); 
 }
+
+
+

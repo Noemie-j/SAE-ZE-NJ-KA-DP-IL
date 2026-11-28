@@ -1,14 +1,25 @@
-import { ChoixProfil } from "../components/accueil/choixProfil/ChoixProfil";
-import { Hero } from "../components/accueil/hero/Hero";
-import { Header } from "../components/layout/Header";
+import Actualites from "../components/Accueil/Actualites/Actualites";
+import AidePersonel from "../components/Accueil/AidePersonel/AidePersonel";
+import { ChoixProfil } from "../components/Accueil/ChoixProfil/ChoixProfil";
+import { Hero } from "../components/Accueil/Hero/Hero";
+import Pacing from "../components/Accueil/Pacing/Pacing";
+
 
 export function Accueil(){
     return (
         <>
-            <Hero/>  
-            <ChoixProfil/>
-            
+            <div className="container section">
+                <Hero/>  
+                <ChoixProfil/>
+            </div>
+
+            <AidePersonel />
+            <Pacing/>
+            <Actualites/>
         </>
+        
+
+        
         
         
     )

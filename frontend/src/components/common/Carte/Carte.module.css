@@ -1,0 +1,24 @@
+.carte{
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
+    
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+}
+
+
+.normale{
+    background-color: var(--fond-carte);
+    border-color: var(--bordure);
+}
+
+.mise-en-avant{
+    background-color: var(--fond-mise-en-avant);
+}
+
+.carte h3{
+    margin: 0;
+    font-size: 1.25rem;
+}
